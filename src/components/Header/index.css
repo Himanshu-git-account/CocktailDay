@@ -1,0 +1,33 @@
+.headerContainer{
+    display: grid;
+    height:60vh;
+    width: 100%;
+    background-image: url('../../asset/cparty.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+
+}
+.header-heading{
+    justify-self: center;
+    align-self: center;
+}
+.header-text{
+    font-size: 5rem;
+    font-weight: 300;
+    letter-spacing: 1.5rem;
+}
+.header-search{
+  text-align: center;
+}
+.header-search_box{
+    padding: 0.5rem;
+    width:40%;
+}
+.header-search_button{
+    padding: 0.5rem;
+    width:20%;
+}
